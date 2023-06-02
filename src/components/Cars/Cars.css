@@ -1,0 +1,41 @@
+.verify{
+  border: none;
+  width: 82px;
+  height: 38px;
+  background-color:#007bff;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.verify:hover{
+    border: 1px solid black;
+    background-color: darkblue;
+    color: white;
+}
+
+.accept{
+  border: none;
+  width: 82px;
+  height: 38px;
+  background-color:#28a745;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.accept:hover{
+    border: 1px solid black;
+    background-color: darkgreen;
+    color: white;
+}
+
+.reject{
+  border: none;
+  width: 82px;
+  height: 38px;
+  background-color:#dc3545;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.reject:hover{
+    border: 1px solid black;
+    background-color: darkred;
+    color: white;
+}
